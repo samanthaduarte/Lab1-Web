@@ -1,0 +1,132 @@
+/* BARRA DE ARRIBA */
+
+.mi-div {
+  background: #171E27;
+  height: 60px;
+}
+
+.main-nav1{
+    float: left;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.main-nav1 li{
+    display: inline-block;
+}
+
+.main-nav2{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.main-nav2 li{
+    display: inline-block;
+}
+
+.huevo {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.learntocode{
+  color: gainsboro;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+.goprobutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signin {
+  color:gainsboro;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 20px;
+}
+
+
+
+/* COSA DE LEARN NO SE QUE*/
+
+
+
+.learn {
+  background: #1F2836;
+  height: 600px;
+}
+
+.main-nav3{
+    float: left;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.main-nav3 li{
+    display: inline-block;
+}
+
+.main-nav4{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+
+.main-nav4 li{
+    display: inline-block;
+}
+
+.learnthebest{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.video{
+    color:gainsboro;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.clickto {
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* FRAMEWORKS*/
+
+
+
+
+
+/*
+.featured {
+  background: blueviolet;
+  height: 100px;
+}
+
+*/
