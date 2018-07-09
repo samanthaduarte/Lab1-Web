@@ -1,43 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: gainsboro;
+}
+
 /* BARRA DE ARRIBA */
 
-.mi-div {
+header {
   background: #171E27;
   height: 60px;
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  min-height: 70px;
 }
 
-.main-nav1{
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+.barraizquierda{
     float: left;
     list-style: none;
-    margin-top: 0px;
-}
-
-.main-nav1 li{
     display: inline-block;
 }
 
-.main-nav2{
-    float: right;
-    list-style: none;
-    margin-top: 0px;
-}
-
-.main-nav2 li{
-    display: inline-block;
-}
 
 .huevo {
   color: white;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  padding: 5px 20px;
+  position: relative;
+  display: inline-block;
+ /* padding: 5px 20px;*/
 }
 
 .learntocode{
   color: gainsboro;
   font-size: 16px;
   text-decoration: none;
-  padding: 5px 20px;
+  position: relative;
+  display: inline-block;
 }
 
 .goprobutton {
@@ -50,13 +62,16 @@
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
+    position: relative;
+    display: inline-block;
 }
 
 .signin {
   color:gainsboro;
   font-size: 16px;
   text-decoration: none;
-  padding: 5px 20px;
+  display: inline-block;
+/*  padding: 5px 20px; */
 }
 
 
@@ -68,6 +83,9 @@
 .learn {
   background: #1F2836;
   height: 600px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .main-nav3{
@@ -94,18 +112,19 @@
     color: white;
     font-size: 50px;
     text-decoration: none;
-    padding: 5px 20px;
+  /*  padding: 5px 20px; */
 }
 
 .video{
     color:gainsboro;
     font-size: 20px;
     text-decoration: none;
-    padding: 5px 20px;
+  /*  padding: 5px 20px;*/
 }
 
 .clickto {
     background-color: red; 
+    position: absolute;
     border: none;
     color: white;
     padding: 10px 30px;
@@ -118,7 +137,6 @@
 
 
 /* FRAMEWORKS*/
-
 
 
 
